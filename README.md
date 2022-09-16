@@ -1,2 +1,2 @@
 # AcademicProjects
-This Repo has my Academic Projects and also my Personal Projects.
+This Repo has my Academic Projects and also my Personal Projects which intruiges me.
