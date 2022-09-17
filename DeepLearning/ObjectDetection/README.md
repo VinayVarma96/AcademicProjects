@@ -17,4 +17,21 @@ YOLO-v5 is very light weight and runs much faster than YOLO-v4.
 YOLO-v5 is almost as accurate as YOLO v4 but a bit less efficient than YOLO v4.
 
 
+Steps of Implementation:
+•	Labelled all of these images by using open source website https://www.makesense.ai/. 
+•	Selected the object (face of dog or cat) in each image and exported the annotations data in the txt and xml format. (using makesense.ai)
+•	Cloned the yolov5 git repository to our notebook and additionally we had to import a lot of related dependencies to get this up and running.
+•	Installed roboflow and imported roboflow to upload my dataset to the roboflow.
+•	Uploaded our local dataset to the roboflow. We can label and annotate the images in roboflow as well. 
+•	But in our case, we have already labelled and annotated the images in the makesense.ai website. 
+•	Hence uploading the images and their respective annotated files to this Roboflow. 
+•	Applied pre-processing filters like Auto-Orient and Resize in the Roboflow.
+•	Applied Augmentations like Horizontal flip to detect mirror images and get good features.
+•	We will be given an API key and value pair code once we export our dataset from the roboflow. 
+•	By running this in our notebook we will be able to import the dataset (train-70%, valid-20% and test-10%)
+•	By feeding this dataset to our yolo model we got an accuracy of (mAP) 88% with 100 epochs in total.
+
+
+
+
 
