@@ -32,6 +32,12 @@ Steps of Implementation:
 •	By feeding this dataset to our yolo model we got an accuracy of (mAP) 88% with 100 epochs in total.
 
 
+Challenges Faced:
+•	We were unable to get the data.yaml file which holds crucial to dataset configuration details such as train and valid paths; class names. We overcome this issue by replacing latest Roboflow API code with the stable code. 
+•	There were too many inconsistencies in our data. Using Roboflow, we made the labels consistent.
+
+[Final Project Report.docx](https://github.com/VinayVarma96/AcademicProjects/files/9590938/Final.Project.Report.docx)
+
 
 
 
