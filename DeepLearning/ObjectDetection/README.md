@@ -18,9 +18,7 @@ YOLO-v5 is almost as accurate as YOLO v4 but a bit less efficient than YOLO v4.
 
 
 Steps of Implementation:
-•	Labelled all of these images by using open source website https://www.makesense.ai/. 
-![image](https://user-images.githubusercontent.com/36757754/190840944-9d307022-f620-4686-91c9-0e41f2c72d99.png)
-
+•	Labelled all of these images by using open source website https://www.makesense.ai/.
 •	Selected the object (face of dog or cat) in each image and exported the annotations data in the txt and xml format. (using makesense.ai)
 •	Cloned the yolov5 git repository to our notebook and additionally we had to import a lot of related dependencies to get this up and running.
 •	Installed roboflow and imported roboflow to upload my dataset to the roboflow.
