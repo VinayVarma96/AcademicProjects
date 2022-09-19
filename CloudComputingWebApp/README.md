@@ -1,4 +1,4 @@
-**Simple Web Chat Application with Chatbot using Microservices**
+**Simple Web Chat Application with Chatbot using Microservices:**
 
 **Main_code** zip file has the complete Web App code and is deployed to Azure Web App and also to Azure VM.
 Functionality: It has complete front-end and back-end code with APIs that calls the microservice which are deployed to different services like Heroku.
