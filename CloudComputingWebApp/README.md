@@ -24,8 +24,11 @@ Heroku has been linked with another private bitbucket repository to get the code
 ![image](https://user-images.githubusercontent.com/36757754/191129928-0f16f214-37ca-415e-9eaa-cfc9a1f30d4a.png)
 
 **Sprint 2:**
-Coded the website to store registration credentials of users in MongoDB database and also use this data to validate the user when the user tries to login to the web application. Display connected users list, enabled private chats with each user and also retrieve the chat history from MongoDB database.
+Coded the website to store registration credentials of users in MongoDB database and also use this data to validate the user when the user tries to login to the web application. Display connected users list, enabled private chats with each user.
 ![image](https://user-images.githubusercontent.com/36757754/191130198-082acb15-a08a-4e89-bd83-836335a6db3f.png)
 
 **Sprint 3:**
+Coded to retrieve the chat history from MongoDB database for each user, and also integrated the huggingface API (external chatbot) where users can chat with this chatbot in seperate chat window.
+![image](https://user-images.githubusercontent.com/36757754/191117922-13207837-555a-4a61-be96-cab9c173b5bf.png)
+
 
