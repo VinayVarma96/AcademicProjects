@@ -10,7 +10,7 @@ Functionality: API from our Web Application (Azure App service) calls this Herok
 Functionality: API from our Web Application (Azure App Service) calls this Heroku microservice to register the user and store the data in MongoDB. It also authenticates the users to login to chat window.
 
 Below image repsresents architectural view of our entire web application.
-![image](https://user-images.githubusercontent.com/36757754/191131623-21a7256d-eba1-4222-9ebb-a81fa2661cf8.png)
+![image](https://user-images.githubusercontent.com/36757754/191131719-892f1cbe-00d9-4218-a6a9-2f6cde41a98d.png)
 Implemented this project in form of sprints in total of 3 sprints.
 
 **Sprint 1:**
